@@ -1,1 +1,8 @@
-
+Le jeu serait une sorte de RPG en vue plongeante (pas directement du dessus). Donc voilà le principe du jeu c'est un donjon préalablement créé par nos soins.
+Le but du jeu serait de sortir de ce donjon en résolvant diverses énigmes visant à chaque fois à ouvrir une porte close. Du coup ça impliquerait que le donjon s'organise en différentes zones ou "étages", chaque zone étant séparée de la suivante par l'une de ces portes. Donc on aurait je dirais une dizaine d'énigmes à faire pour pouvoir arriver au boss.
+Le boss parlons-en: ce serait une créature très ancienne demeurant dans le donjon. Pour s'en débarrasser, il faut répondre à ses énigmes, qui sont cette fois-ci uniquement orales (du coup j'avais pensé à reprendre des énigmes du Hobbit, ou alors j'ai un jeu où l'on peut piocher certaines colles pas piquées des hannetons)
+Si on répond bien genre aux 3/4 de ses énigmes minimum, il laisse sortir le joueur, sinon il fait mine de le laisser sortir pour en fait le poignarder dans le dos après (faudra peaufiner ça parce que PERSONNE n'a ce genre de réaction).
+Le boss peut aussi apparaître sous forme de fantôme dans le donjon pour poser des colles au joueur ou ajouter de la difficulté aux énigmes pour sortir de la zone (enfin on verra pour ça)
+Les énigmes pour sortir des zones: peut-être trouver des objets dans la zone pour pouvoir les utiliser dans la résolution (comme je disais à Tristant un peu comme les jeux d'ombre qu'on peut trouver dans certains jeux vidéo). En tout cas ça permettrait de renforcer le côté exploration du donjon.
+Côté technique, on pourrait voir pour mettre une musique particulière pour les énigmes (ce qui signifierait de les coder sur le robot, mais ça ça viendra à la fin).
+Enfin, le lore et les règles du jeu seraient trouvables sur un fichier HTML.
