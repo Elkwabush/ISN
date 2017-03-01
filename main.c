@@ -4,31 +4,65 @@
 // Maxime BRECQUEVILLE                           //
 // Victor COTTIN                                 //
 //                                               //
-// Dernière modification : 18.02.2017            //
+// Dernière modification : 01.03.2017            //
 //                                               //
-// #1# Macros                                    //
-// #2# Structures                                //
-// #3# Variables globales                        //
-// #4# Fonctions                                 //
-// #5# Main                                      //
+// #I# Macros                                    //
+// #II# Structures                               //
+// #III# Variables globales                      //
+// #IV# Fonctions                                //
+// #V# Main                                      //
 // ############################################# //
+
+/*
+Références détaillées:
+#I# Macros
+#II# Structures
+#III# Variables globales
+#IV# Fonctions
+    #IV-1# Menu
+    #IV-2# Entrees 
+    #IV-3# MiseAJour
+    #IV-4# Affichage
+#V# Main
+*/
 
 #include "graphics.h"
 
-//#1# Macros
+//#I# Macros ----------
 
-#define LARGEUR 800
-#define HAUTEUR 800
+#define L 800
+#define H 800
 
-//#2# Structures
+//#II# Structures ----------
 
-//#3# Variables globales
+//#III# Variables globales ----------
 
-//#4# Fonctions
+int etatDuJeu; 
+/*Prend la valeur:
+0 pour en train d'être quitté,
+1 pour dans le menu,
+2 pour en jeu
+3 pour dans les crédits*/
 
-//#5# Main
+//#IV# Fonctions ----------
+
+//#IV-1# Menu
+//Renvoi de 0 lorsque quitter est choisi, de 2 lorsque jouer est choisi
+int Menu()
+{
+    return 0 ; //temp
+}
+
+//#IV-2# Entrees
+
+//#IV-3# MiseAJour
+
+//#IV-4# Affichage
+
+
+//#V# Main ----------
 
 int main (int argc, char** argv)
 {
-    exit(0) ;
+    return 0 ;
 }
