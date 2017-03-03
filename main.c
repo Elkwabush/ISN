@@ -49,6 +49,7 @@ int etatDuJeu;
 
 //#IV-1# Menu
 //Renvoi de 0 lorsque quitter est choisi, de 2 lorsque jouer est choisi
+//(La fonction Menu gère par elle-même l'affichage et les interractions du joueur)
 int Menu()
 {
     return 0; //temp
@@ -92,7 +93,7 @@ int main (int argc, char** argv)
 			MiseAJour();
 			Affichage();
         }
-		else {Credits();}
+	else {Credits();}
     }
     return 0 ;
 }
