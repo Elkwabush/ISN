@@ -50,10 +50,16 @@ int etatDuJeu;
 //Renvoi de 0 lorsque quitter est choisi, de 2 lorsque jouer est choisi
 int Menu()
 {
-    return 0 ; //temp
+    return 0; //temp
 }
 
 //#IV-2# Entrees
+//Renvoi de 1 si le joueur a appuyé sur échap., sinon met simplement à jour les variables gérant les entrées de la souris et du clavier
+int Entrees()
+{
+    return 1; //temp
+}
+
 
 //#IV-3# MiseAJour
 
@@ -64,5 +70,15 @@ int Menu()
 
 int main (int argc, char** argv)
 {
+    etatDuJeu = 1;
+    while(etatDuJeu != 0)
+    {
+        if(etatDuJeu == 1) {etatDuJeu = Menu() ;}
+        else if(etatDuJeu == 2)
+        {
+            etatDuJeu = Entrees();
+        }
+    }
+    
     return 0 ;
 }
