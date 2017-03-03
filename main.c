@@ -86,7 +86,7 @@ int main (int argc, char** argv)
     etatDuJeu = 1;
     while(etatDuJeu != 0)
     {
-        if(etatDuJeu == 1) {etatDuJeu = Menu() ;}
+        if(etatDuJeu == 1) {etatDuJeu = Menu();}
         else if(etatDuJeu == 2)
         {
             etatDuJeu = Entrees();
