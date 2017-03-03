@@ -23,6 +23,7 @@ Références détaillées:
     #IV-2# Entrees 
     #IV-3# MiseAJour
     #IV-4# Affichage
+	#IV-5# Credits
 #V# Main
 */
 
@@ -60,11 +61,22 @@ int Entrees()
     return 1; //temp
 }
 
-
 //#IV-3# MiseAJour
+//Mise à jour du jeu et de toutes les variables en fonction des actions du joueur
+void MiseAJour()
+{
+}
 
 //#IV-4# Affichage
+void Affichage()
+{
+}
 
+//#IV-5# Credits
+//Affichage des crédits
+void Credits()
+{
+}
 
 //#V# Main ----------
 
@@ -77,8 +89,10 @@ int main (int argc, char** argv)
         else if(etatDuJeu == 2)
         {
             etatDuJeu = Entrees();
+			MiseAJour();
+			Affichage();
         }
+		else {Credits();}
     }
-    
     return 0 ;
 }
